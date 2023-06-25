@@ -1,0 +1,88 @@
+.card {
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.txns-wrapper {
+    height: 100%;
+    overflow-y: auto;
+}
+
+.single-block {
+    font-size: 13px;
+    text-align: left;
+    padding: 10px 0;
+    border-bottom: 1px solid rgb(227, 221, 221);
+}
+
+.card-header h3 {
+    font-size: 15px;
+    font-weight: bold;
+    text-align: left;
+}
+
+.card-body {
+    height: 400px;
+}
+
+.single-block a {
+    text-decoration: none;
+    color: #3498db;
+}
+
+.block-number {
+    display: flex;
+}
+
+.tx {
+    padding: 15px;
+    border-radius: 50px;
+    background-color: whitesmoke;
+}
+
+.number-div {
+    margin-left: 10px;
+}
+
+.time {
+    font-size: 13px;
+    color: grey;
+}
+
+.recipient-div {
+    margin-left: 20px;
+}
+
+.card-footer a {
+    display: block;
+    background-color: rgb(219, 236, 242);
+    border-radius: 5px;
+    padding: 5px;
+    text-decoration: none;
+    color: #3498db;
+    font-size: 12px;
+}
+
+.card-footer a:hover {
+    color: white;
+    background-color: #3498db;
+}
+
+/* scroll bar track */
+.txns-wrapper::-webkit-scrollbar {
+    width: 2px;
+    /* width of the entire scrollbar */
+}
+
+.txns-wrapper::-webkit-scrollbar-track {
+    background: white;
+    /* color of the tracking area */
+}
+
+.txns-wrapper::-webkit-scrollbar-thumb {
+    background-color: grey;
+    /* color of the scroll thumb */
+    border-radius: 20px;
+    /* roundness of the scroll thumb */
+    /* border: 3px solid orange; */
+    /* creates padding around scroll thumb */
+}

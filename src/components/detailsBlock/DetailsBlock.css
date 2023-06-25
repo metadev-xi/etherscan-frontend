@@ -1,0 +1,82 @@
+.details-block-wrapper {
+    font-size: 15px;
+    border-radius: 10px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    padding: 10px;
+    margin-top: -40px;
+}
+
+.details-block {
+    display: flex;
+}
+
+.icon {
+    margin-right: 10px;
+}
+
+.ether-price {
+    padding-right: 20px;
+    border-bottom: 1px solid rgb(227, 221, 221);
+}
+
+.transactions {
+    padding-right: 20px;
+    border-bottom: 1px solid rgb(227, 221, 221);
+}
+
+.ether-price, .market-cap {
+    text-align: left;
+    display: flex;
+    padding: 10px;
+}
+
+.transactions, .finalized-block {
+    display: flex;
+    padding: 10px;
+}
+
+.transactions .data-info, .finalized-block .data-info {
+    display: flex;
+    text-align: left;
+}
+
+.trans-div {
+    margin-right: 10px;
+}
+
+.fb-data {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.data-info h3 {
+    font-size: 13px;
+    color: grey;
+
+}
+
+.data-info a, .data-info span {
+    font-size: 14px;
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.graph {
+    text-align: left;
+    padding: 20px;
+}
+
+.graph-figure {
+    width: 100%;
+}
+
+.column-one, .column-two {
+    padding: 10px;
+    border-right: 1px solid rgb(227, 221, 221);
+}
+
+.column-one, .column-two, .column-three {
+    width: 33%;
+}

@@ -1,0 +1,61 @@
+.showcase-wrapper {
+    background-color: #0c334e;
+    min-height: 300px;
+    padding-top: 50px;
+}
+
+.filter {
+    color: white;
+    width: 50%;
+    float: left;
+}
+
+.filter-form select {
+    width: 130px;
+    border: none;
+    background-color: white;
+    font-size: 15px;
+    padding: 0 10px;
+    outline: none;
+
+}
+
+.filter-form input {
+    font-size: 15px;
+    width: 80%;
+}
+
+.filter h4 {
+    text-align: left;
+}
+
+.filter .p-text {
+    font-size: 13px;
+    text-align: left;
+    margin-top: 10px;
+}
+
+.filter .p-text span {
+    font-weight: bold;
+}
+
+.filter .p-text a {
+    text-decoration: none;
+    color: #3498db;
+}
+
+.search-btn {
+    background-color: #3498db;
+    border: none;
+    color: white;
+    padding: 20px;
+}
+
+.search-btn:hover {
+    cursor: pointer;
+}
+
+.ads a img {
+    border-radius: 5px;
+    margin-top: 10px;
+}

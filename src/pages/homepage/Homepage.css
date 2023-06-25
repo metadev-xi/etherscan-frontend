@@ -1,0 +1,9 @@
+.blocks-and-transactions {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.latest-blocks, .latest-transactions {
+    width: 49%;
+}

@@ -1,0 +1,82 @@
+.all-blocks-page {
+    background-color: whitesmoke;
+}
+
+.page-header {
+    background-color: white;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.page-title {
+    text-align: left;
+    margin-top: 20px;
+}
+
+.page-title h4 {
+    color: grey;
+    font-size: 20px;
+    float: left;
+}
+
+.page-title p {
+    font-size: 13px;
+}
+
+.burnt-fees {
+    text-align: right;
+    font-size: 12px;
+}
+
+.b-fees {
+    background-color: rgb(255, 255, 230);
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin-left: 10px;
+}
+
+.fire {
+    color: red;
+}
+
+.network-u {
+    background-color: rgb(226, 226, 226);
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.dashboard-span {
+    border-left: 1px solid #000;
+    margin-left: 5px;
+    padding-left: 10px;
+}
+
+.dashboard-span a {
+    text-decoration: none;
+    margin-left: 2px;
+}
+
+.featured {
+    font-weight: bold;
+    color: grey;
+}
+
+.sign-up-today a {
+    color: #3498db;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.page-title .b-desc {
+    text-align: left;
+    font-size: 13px;
+}
+
+.b-desc {
+    text-align: left;
+    font-size: 13px;
+}
+
+.b-desc p a {
+    color: #3498db;
+    text-decoration: none;
+}

@@ -1,0 +1,128 @@
+.footer-wrapper {
+    margin-top: 100px;
+    background-color: #21325b;
+    width: 100%;
+    /* color: #1e2022; */
+    font-family: Helvetica;
+    background-image: url(https://etherscan.io/images/world-map-white.png);
+    background-position: 0px 30%;
+    padding: 20px 0;
+
+}
+
+.footer-top {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: left;
+    font-size: 13px;
+    justify-content: space-between;
+    padding: 20px 0;
+    border-bottom: 1px solid rgb(168, 167, 167);
+}
+
+.footer-about {
+    color: white;
+    width: 25%;
+}
+
+.logo-and-header h3 {
+    font-size: 20px;
+
+}
+
+.pref-setting a {
+    text-decoration: none;
+    background-color: #33567b;
+    padding: 10px;
+    color: white;
+    border-radius: 5px;
+    box-shadow: #363636 0px 0px 10px 0px;
+}
+
+.pref-setting a:hover {
+    background-color: #fff;
+    color: black;
+    box-shadow: #fff 0px 0px 10px 0px;
+}
+
+.pref-setting button {
+    background-color: #33567b;
+    border: none;
+    padding: 8px;
+    border-radius: 5px;
+    margin-left: 10px;
+    color: white;
+}
+
+.pref-setting button:hover {
+    background-color: #fff;
+    color: black;
+    box-shadow: #fff 0px 0px 10px 0px;
+}
+
+.important-links {
+    color: white;
+}
+
+.important-links h4 {
+    font-size: 18px;
+    border-bottom: 1px solid rgb(168, 167, 167);
+    padding-bottom: 5px;
+}
+
+.important-links ul {
+    list-style: none;
+    padding: 0;
+    text-align: left;
+}
+
+.important-links ul li {
+    margin-top: 10px;
+}
+
+.important-links ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.bottom {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+}
+
+.copy-right {
+    color: white;
+    display: flex;
+    font-size: 12px;
+}
+
+.copy-right p {
+    border-right: 2px solid white;
+    padding-right: 10px;
+}
+
+.copy-right a {
+    color: white;
+    margin-left: 10px;
+    text-decoration: none;
+}
+
+.copy-right a span {
+    color: red;
+}
+
+.socials a {
+    background-color: #33567b;
+    color: white;
+    border-radius: 50%;
+    padding: 10px;
+    margin: 5px;
+}
+
+.socials a:hover {
+    background-color: white;
+    color: black;
+    box-shadow: #fff 0px 0px 10px 0px;
+
+}

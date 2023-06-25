@@ -1,0 +1,27 @@
+.brand-div .logo {
+    display: flex;
+}
+
+.fee-tooltip {
+    margin-top: 10px;
+    background-color: whitesmoke;
+    font-size: 11px;
+    padding: 6px;
+    border-radius: 5px;
+}
+
+.gas-fee-tooltip {
+    border-left: 1px solid #000;
+    margin-left: 10px;
+    padding-left: 10px;
+    color: grey;
+}
+
+.filter-form {
+    width: 100%;
+}
+
+.input-group {
+    width: 70%;
+    margin-left: 30%;
+}

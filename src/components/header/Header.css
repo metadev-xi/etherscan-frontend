@@ -1,0 +1,100 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.brand {
+    display: flex;
+}
+
+.brand img {
+
+    width: 40px;
+    height: 40px;
+}
+
+.brand h4 a {
+    text-decoration: none;
+    margin: 5px 0 0 5px;
+    color: #0c334e;
+}
+
+.nav-list {
+    display: flex;
+}
+
+.nav-list div {
+    margin: 5px;
+}
+
+.nav-list div a {
+    text-decoration: none;
+    color: grey;
+    padding: 12.8px 16px;
+    font-size: 14px;
+}
+
+.nav-list div a:hover {
+    color: #3498db;
+}
+
+.sign-in {
+    border-left: 1px solid grey;
+    border-right: 1px solid grey;
+    padding: 0 5px 0 5px;
+}
+
+.sign-in a {
+    margin-left: -12px;
+}
+
+/* Dropdown Button */
+.dropbtn {
+    color: grey;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+    display: none;
+    text-align: left;
+    margin-top: 60px;
+    position: absolute;
+    background-color: #f1f1f1;
+    border-top: 4px solid #3498db;
+    min-width: 230%;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+/* .dropdown:hover .dropbtn {
+    background-color: #3e8e41;
+} */
